@@ -1,6 +1,6 @@
 #scatter{
-  float: right;
-  width: 928px;
+position: relative;
+right: 13%;
 }
 
 .tooltip {
@@ -17,3 +17,4 @@
   border-radius: 10px;
   pointer-events: none !important;
 }
+

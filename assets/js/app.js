@@ -1,4 +1,4 @@
-var svgWidth = 1000;
+var svgWidth = 960;
 var svgHeight = 500;
 
 var margin = {
@@ -218,10 +218,6 @@ d3.csv("assets/data/data.csv", function(err, healthData) {
     .attr("fill", d3.rgb(123,167,187))
     .attr("opacity", 0.5)
     .classed("circles", true);
-
-
-
-
 
     console.log(textGroup);
 
