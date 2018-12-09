@@ -1,4 +1,4 @@
-var svgWidth = 960;
+var svgWidth = 1000;
 var svgHeight = 500;
 
 var margin = {
@@ -17,7 +17,8 @@ var svg = d3
   .select("#scatter")
   .append("svg")
   .attr("width", svgWidth)
-  .attr("height", svgHeight);
+  .attr("height", svgHeight)
+  .attr("align", "left");
   
 
 // Append an SVG group
